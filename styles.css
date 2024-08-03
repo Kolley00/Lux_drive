@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    /*background: url('/images/background.jpg') */
+    /*background-size: cover; */
+    text-align: center;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+
+.links {
+    margin-bottom: 20px;
+}
+
+.link {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 25px;
+    background: linear-gradient(45deg, rgba(103, 104, 104, 0.8));
+    transition: background-color 0.3s, color 0.3s;
+    max-width: 300px;
+}
+
+.link:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
+.email-address {
+    font-size: 20px;
+    color: #333;
+}
+
+.email-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.phone-container {
+    margin-top: 20px;
+}
+
+.phone-number {
+    font-size: 18px;
+}
+
+.phone-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.phone-link:hover {
+    text-decoration: underline;
+}
+
+
+
